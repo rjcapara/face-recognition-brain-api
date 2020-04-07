@@ -1,11 +1,8 @@
 {
   "name": "node",
-  "homepage": "https://rjcapara.github.io/face-recognition-brain-api",
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "nodemon server.js"
   },
   "keywords": [],
@@ -18,7 +15,7 @@
     "express": "^4.16.2",
     "gh-pages": "^2.2.0",
     "knex": "^0.20.13",
-    "pg": "^7.4.0"
+    "pg": "^7.18.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
