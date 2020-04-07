@@ -9,7 +9,7 @@ const db = knex({
   connection: {
     host : '127.0.0.1',
     user : 'postgres',
-    password : '2517',
+    password : '',
     database : 'postgres'
   }
 });
@@ -20,7 +20,7 @@ app.use(cors())
 app.use(bodyParser.json());
 
 app.get('/', (req, res)=> {
-  res.send('it is working')
+  res.send('it is working');
 })
 
 app.post('/signin', (req, res) => {
